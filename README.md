@@ -92,15 +92,3 @@ This blog application allows administrators to create and manage blog posts, aut
 
 ---
 
-#### `/server/.env`
-```env
-PORT=5000
-MONGO_URI=your_mongo_uri
-JWT_SECRET=your_jwt_secret
-GOOGLE_GEMINI_API_KEY=your_google_gemini_key
-IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
-IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
-IMAGEKIT_URL_ENDPOINT=your_imagekit_url
-EMAIL_FROM=your_email@example.com
-EMAIL_PASS=your_email_password
-FRONTEND_URL=http://localhost:3000
