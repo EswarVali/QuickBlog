@@ -1,14 +1,27 @@
-import express from 'express'
-import { adminLogin, approveCommentById, deleteCommentById, getAllBlogsAdmin, getAllComments, getDashboard } from '../controllers/adminController.js';
-import auth from '../middleware/auth.js';
+import express from "express";
+import {
+  adminLogin,
+  adminAuth,
+  getAllBlogsAdmin,
+  getAllComments,
+  getDashboard,
+  deleteCommentById,
+  approveCommentById,
+} from "../controllers/adminController.js";
 
 const adminRouter = express.Router();
 
 adminRouter.post("/login", adminLogin);
-adminRouter.get("/comments", auth, getAllComments);
-adminRouter.get("/blogs", auth, getAllBlogsAdmin);
-adminRouter.post("/delete-comment", auth, deleteCommentById);
-adminRouter.post("approve-comment", auth, approveCommentById);
-adminRouter.get("/dashboard", auth, getDashboard);
+
+// Protect all routes below
+adminRouter.use(adminAuth);
+
+adminRouter.get("/blogs", getAllBlogsAdmin);
+adminRouter.get("/comments", getAllComments);
+adminRouter.get("/dashboard", getDashboard);
+
+// RESTful routes with :id param
+adminRouter.delete("/comments/:id", deleteCommentById);
+adminRouter.patch("/comments/:id/approve", approveCommentById);
 
 export default adminRouter;
