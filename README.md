@@ -47,38 +47,39 @@ This blog application allows administrators to create and manage blog posts, aut
 
 ## 🖼️ Screenshots
 
-### 1. Add Blogs  
-![Add Blogs](client/src/screenshots/addBlogs.png)
-
-### 2. Admin Dashboard  
-![Admin Dashboard](client/src/screenshots/adminDashboard.png)
-
-### 3. Admin Login Page  
-![Admin Login](client/src/screenshots/adminloginpage.png)
-
-### 4. AI Generated Content  
-![AI Generated Content](client/src/screenshots/AIgeneratedContent.png)
-
-### 5. Blog Cards  
-![Blog Cards](client/src/screenshots/blogcards.png)
-
-### 6. Blog Lists  
-![Blog Lists](client/src/screenshots/blogLists.png)
-
-### 7. Generating Content with AI  
-![Generating Content with AI](client/src/screenshots/generatingContentWithAI.png)
-
-### 8. Navbar & Header  
+### 1. Navbar & Header  
 ![Navbar & Header](client/src/screenshots/navbar&header.png)
 
-### 9. Newsletter & Footer  
+### 2. Newsletter & Footer  
 ![Newsletter & Footer](client/src/screenshots/newsletter&footer.png)
 
-### 10. New Blog Created  
+### 3. Blog Page  
+![Blog Page](client/src/screenshots/BlogPage.png)
+
+### 4. New Blog Created  
 ![New Blog Created](client/src/screenshots/newBlogCreated.png)
 
-### 11. Blog Page  
-![Blog Page](client/src/screenshots/BlogPage.png)
+### 5. Admin Login Page  
+![Admin Login](client/src/screenshots/adminloginpage.png)
+
+### 6. Admin Dashboard  
+![Admin Dashboard](client/src/screenshots/adminDashboard.png)
+
+### 7. Add Blogs  
+![Add Blogs](client/src/screenshots/addBlogs.png)
+
+
+### 8. AI Generated Content  
+![AI Generated Content](client/src/screenshots/AIgeneratedContent.png)
+
+### 9. Blog Cards  
+![Blog Cards](client/src/screenshots/blogcards.png)
+
+### 10. Blog Lists  
+![Blog Lists](client/src/screenshots/blogLists.png)
+
+### 11. Generating Content with AI  
+![Generating Content with AI](client/src/screenshots/generatingContentWithAI.png)
 
 ### 12. Add Comment  
 ![Add Comment](client/src/screenshots/addComment.png)
